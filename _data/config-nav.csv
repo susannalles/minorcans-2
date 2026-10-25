@@ -2,13 +2,12 @@ translate_id_nav,stub,dropdown_parent
 nav-home,/
 nav-browse
 nav-browse,/browse.html,nav-browse
-nav-browse,/subjects.html,nav-browse
 nav-subjects,/subjects.html,nav-browse
 nav-locations,/locations.html,nav-browse
+nav-data,/data.html,nav-browse
 nav-map,/map.html
 nav-timeline,/timeline.html
-nav-data,/data.html
 nav-about,/about.html
-nav-learn
-nav-gender-in-spanish,https://www.genderinlanguage.com/spanish,nav-learn
-nav-on-gender-inclusive-spanish,https://www.genderinlanguage.com/spanish/how,nav-learn
+nav-resources
+nav-resources-2,/resources.html,nav-resources
+nav-bibliography,/bibliography.html,nav-resources
