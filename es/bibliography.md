@@ -1,6 +1,6 @@
 ---
 title: Bibliografía
-layout: default
+layout: about
 ---
 
 Content

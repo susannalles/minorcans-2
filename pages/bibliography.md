@@ -1,6 +1,6 @@
 ---
 title: Bibliography
-layout: default
+layout: about
 permalink: /bibliography.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Recursos
-layout: default
+layout: about
 ---
 
 Contenido
