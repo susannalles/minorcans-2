@@ -1,7 +1,7 @@
 /* 
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
-*/
+
 
 // language button styling
 .language-buttons {
@@ -22,3 +22,253 @@
     right: 0;
     z-index: 3;
 }
+*/
+
+/* 
+    Put your custom SCSS here! 
+    This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+body {
+    font-family: "Libre Baskerville", serif;;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background: #f2f1ed;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card {
+    background-color: #faf9f5;
+}
+
+
+#home-banner {
+    background-position: center center!important;
+}
+
+@media (min-width: 1680px) {
+    #home-banner {
+        background-position: center -570px!important;
+    }
+}
+
+
+:root {
+          --bs-dark-rgb: 1, 50, 30;
+        }
+
+body p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+.about-contents {
+    background: #faf9f5;
+    padding: 5px 60px 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 1280px;
+}
+
+.about-contents ul {
+    font-size: 0.9em;
+}
+
+.about-contents ul li {
+    margin-bottom: 20px;
+}
+
+.about-contents>p,.about-contents>h2,.about-contents>ul{
+    max-width: 1280px;
+    border: none;
+}
+.about-contents>h2 {
+    padding-top: 30px!important;
+}
+#browseItems .card {
+ border-bottom-left-radius: 16px;
+ border-bottom-right-radius: 16px;
+}
+#browseItems .card>a {
+    background: #01321e29;
+    display: block;
+    height: 133px;
+    text-align: center;
+}
+#browseItems .card a img {
+        height: 100%;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.btn-outline-primary {
+    color: #01321e;
+    border-color: #01321e;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #01321e;
+  border-color: #01321e29;
+}
+
+#item-metadata .btn-link {
+    font-weight: 400;
+    color: #01321e;
+    text-decoration: none;
+    border: 1px solid #01321e;
+}
+
+#item-metadata .btn-link:hover {
+   background-color: #01321e29;
+}
+
+#item-metadata dd {
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+#item-metadata dt {
+    margin-bottom: 10px;
+}
+
+#browse-buttons {
+    margin: 30px auto;
+}
+.navbar-nav .nav-item a {
+    font-size: 0.9em;
+}
+#search {
+    margin-left: 15px;
+}
+
+#item-table {
+    font-size: 0.8em;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #01321e;
+  border-color: #01321e;
+}
+
+#maincontent .btn-primary {
+    background-color: #01321e;
+    border-color: #01321e;
+}
+#maincontent .btn-primary:hover {
+    color: #01321e;
+    background-color: #FFF;
+    border-color: #01321e;
+}
+.page-link {
+    color: #01321e;
+}
+
+#scroll-to-top {
+    color: #039157;
+    bottom: 7px;
+}
+
+#scroll-to-top:hover {
+    color: #012617;
+}
+footer .border-white {
+    border-color: #012617!important;
+}
+
+#footer-nav {
+    font-size: 0.7em;
+    justify-content: center;
+}
+
+#footer-nav li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#footer-credits a {
+    margin: 20px;
+    display: inline-block;
+}
+
+.logoum {
+  background: #FFFFFFF7;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+#maincontent p a, #maincontent li a {
+    text-decoration: underline;
+    color: #218a5f;
+}
+
+#maincontent p a:hover, #maincontent li a:hover {
+    color: #024f2f;
+}
+
+#zotero-bib div a {
+    text-decoration: underline;
+    color: #218a5f;
+}
+
+#zotero-bib div a:hover {
+    color: #024f2f;
+}
+
+#zotero-bib div a {
+    text-decoration: underline;
+    color: #218a5f;
+}
+
+#zotero-bib div a:hover {
+    color: #024f2f;
+}
+
+
+#maincontent p.card-text a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#maincontent .card-body p.card-text a:hover {
+   color: #01321e;
+}
+
+#maincontent .btn-primary:hover {
+    color: #01321e;
+}
+
+#maincontent p.card-text a:hover {
+    color: #EEE;
+}
+
+#maincontent p.card-text a.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+    text-decoration: none;
+}
+
+
+#maincontent p.card-text a.btn-outline-secondary:hover {
+  color: #FFFFFF;
+  background: #6c757d;
+  border-color: #6c757d;
+    text-decoration: none;
+}
+
+#browseItems .mb-2 {
+  margin-bottom: 60px!important;
+}
+
+
+
