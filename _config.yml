@@ -9,28 +9,26 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-url: https://susannalles.github.io
+url: https://susannalles.github.io/
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-baseurl: /dhirg-test-2
+baseurl: /minorcans-2
 # location of code, the full url to your github repository
-source-code: https://github.com/susannalles/dhirg-test-2
+source-code: https://github.com/susannalles/minorcans-2
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: 'CollectionBuilder-Remix'
+title: 'From Minorca to Florida'
 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Based on Gender Inclusive Spanish Digital Archive
+tagline: A Digital Archive of Diaspora and Memory in St. Augustine
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This collection is a pedagogical sample based on the <a href=\"https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/\"\
-  >Gender-Inclusive Spanish Digital Archive</a> to help users familiarize themselves
-  with the functions of CollectionBuilder-Remix. To learn how to use this project,
-  check out the <a href=\"https://github.com/eugestumm/CollectionBuilder-Remix/wiki/1.-Home\"\
-  >project wiki</a>."
+description: "A digital project dedicated to documenting the journey and legacy of
+  the first Minorcan settlers who migrated from the island of Menorca to New Smyrna
+  in 1768 and later established a lasting presence in St. Augustine, Florida."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Euge Stumm
 
@@ -40,14 +38,12 @@ site_languages:
   lang_display: 'English'
 - lang_id: 'es'
   lang_display: 'Español'
-  lang_site_title: 'CollectionBuilder-Remix: Colección de Demostración'
-  lang_site_tagline: Basado en el Archivo Digital de Español No Binario
-  lang_site_description: "Esta colección es una demostración pedagógica basada en
-    el <a href=\"https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/\"\
-    >Archivo Digital de Español No Binario</a>, diseñada para ayudar a les usuaries
-    a familiarizarse con las funciones de CollectionBuilder-Remix. Para aprender a
-    usar este proyecto, consulte la <a href=\"https://github.com/eugestumm/CollectionBuilder-Remix/wiki/1.-Home\"\
-    >wiki del proyecto</a>."
+  lang_site_title: 'De Menorca a Florida'
+  lang_site_tagline: Un archivo digital de la diáspora y la memoria en San 
+    Agustín
+  lang_site_description: "Un proyecto digital dedicado a documentar el viaje y el
+    legado de los primeros menorquines que migraron de la isla de Menorca hacia Nueva
+    Esmirna en 1768 y se establecieron como comunidad en San Agustín de la Florida."
 # Set paths, language ids, and permalinks for pages
 defaults:
 - scope:
