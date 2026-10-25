@@ -22,6 +22,7 @@ layout: page
 <div class="row">
   <div class="col-md-8">
     {{% include index/description.html %}}
+     {{ content }}
     {{% include index/carousel.html title="Sample Items" height="300" %}}
   
   </div>
