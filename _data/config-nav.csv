@@ -9,5 +9,5 @@ nav-map,/map.html
 nav-timeline,/timeline.html
 nav-about,/about.html
 nav-resources
-nav-resources-2,/resources.html,nav-resources
+nav-resources,/resources.html,nav-resources
 nav-bibliography,/bibliography.html,nav-resources
