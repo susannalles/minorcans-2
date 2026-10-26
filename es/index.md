@@ -3,4 +3,4 @@ title: Inicio
 layout: home-infographic
 ---
 
-Bka bla bla bla bla
+Bla bla bla bla bla
