@@ -5,7 +5,7 @@
         <div class="col-md-7  px-4 mt-2">
 
             <h2 class="h4"><a href="{% if page.lang != site.site_languages[0]['lang_id'] %}{{ '/' | prepend: page.lang | prepend: '/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="text-white font-weight-normal">{% if page.lang == site.site_languages[0]['lang_id'] %}{{ site.title }}{% else %}{{ altLang.lang_site_title }}{% endif %}</a></h2>
-            <p class="text-white"><small>{% if page.lang == site.site_languages[0]['lang_id'] %}{{ site.tagline }}{% else %}{{ altLang.lang_site_description }}{% endif %}</small></p>
+            <p class="text-white"><small>{% if page.lang == site.site_languages[0]['lang_id'] %}{{ site.tagline }}{% else %}{{ altLang.lang_site_tagline }}{% endif %}</small></p>
             <nav>
                 <ul id="footer-nav" class="nav nav-pills ">
                     {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
